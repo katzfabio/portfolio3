@@ -1,8 +1,18 @@
 :root {
-  --color-primary:
-  --color-secondary:
-  --color-hover:
+  --color-primary: #CC2734;
+  --color-secondary: #000000;
+  --color-accent: #84B5C8;
+  --color-hover: #8D8D8D;
 
-  --font-primary:
-  --font-secondary:
+  --font-secondary: anton, sans-serif;
+  --font-primary: work-sans, sans-serif;
+}
+
+h1, h2 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+p {
+  font-family: var(--font-primary);
 }

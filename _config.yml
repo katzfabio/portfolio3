@@ -1,3 +1,8 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+patternbot:
+  font_url: "https://use.typekit.net/ksp1tob.css"
+  rationales:
+    colors.primary: |
+      This is the primary color that will be used for all titles or sections of the webapage.
