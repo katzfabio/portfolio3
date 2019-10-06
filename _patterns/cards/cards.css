@@ -1,0 +1,12 @@
+.text {
+  position: absolute;
+}
+
+.text-color {
+  color: #ffff;
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}

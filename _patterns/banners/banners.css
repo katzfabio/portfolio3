@@ -2,3 +2,16 @@
   width: 15em;
   font-weight: lighter;
 }
+
+.title-section {
+  overflow: hidden;
+  height: 20em;
+}
+
+.zetta {
+  line-height: 5.48rem;
+}
+
+.yotta {
+  line-height: 7.75rem;
+}
