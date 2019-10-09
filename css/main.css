@@ -6,13 +6,3 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
-
-h1 ,h2 {
-  color: var(--color-primary);
-  font-family: var(--font-secondary);
-}
-
-p {
-  color: var(--color-secondary);
-  font-family: var(--font-primary);
-}

@@ -15,3 +15,7 @@
 .yotta {
   line-height: 7.75rem;
 }
+
+p {
+  color: var(--color-secondary);
+}
