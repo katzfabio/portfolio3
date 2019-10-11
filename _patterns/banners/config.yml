@@ -1,0 +1,7 @@
+patterns:
+  titles-for-sections:
+    title: "TITLE SECTION"
+    description: |
+      This will be used as the titles to indicate the user they are viewing a new section of my website.
+    fields:
+      - name: heading

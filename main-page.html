@@ -4,7 +4,34 @@ layout: default
 
 <div>
   {% pattern banners/banner-main %}
-  {% pattern banners/titles-for-sections %}
+  {% pattern banners/titles-for-sections heading="MOTION REEL" %}
   {% pattern sections/videos %}
+  {% pattern banners/titles-for-sections heading="WORK" %}
+  <div class="grid">
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      {% pattern cards/project-cards %}
+    </div>
+
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      {% pattern cards/project-cards %}
+    </div>
+
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      {% pattern cards/project-cards %}
+    </div>
+
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      {% pattern cards/project-cards %}
+    </div>
+
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      {% pattern cards/project-cards %}
+    </div>
+
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      {% pattern cards/project-cards %}
+    </div>
+
+  </div>
   {% pattern sections/gif %}
 </div>

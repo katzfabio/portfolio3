@@ -3,13 +3,8 @@
   font-weight: lighter;
 }
 
-.title-section {
-  overflow: hidden;
-  height: 20em;
-}
-
 .zetta {
-  line-height: 5.48rem;
+  line-height: 1.1;
 }
 
 .yotta {
@@ -18,4 +13,50 @@
 
 p {
   color: var(--color-secondary);
+}
+
+.temp-color {
+  background-color: var(--color-hover);
+}
+
+.bg {
+  background-image: url(/images/sticker-1.png);
+  background-size: auto 8em;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.banner-video-embed {
+  padding-top: 100%;
+}
+
+.banner-video-embed .embed-item {
+  width: auto;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 30em) {
+
+  .banner-video-embed {
+    padding-top: 80%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-video-embed {
+    padding-top: 72%;
+  }
+
+}
+
+@media only screen and (min-width: 80em) {
+
+  .banner-video-embed {
+    padding-top: 56.25%;
+  }
+
 }
