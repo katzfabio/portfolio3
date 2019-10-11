@@ -1,0 +1,12 @@
+patterns:
+  titles-for-sections:
+    title: "project-cards"
+    description: |
+      These are cards that are clickable. They will take you into whatever project you select to view.
+    fields:
+      - name: heading
+        type: string
+        exampple: "TITLE"
+      - name: text
+        type: string
+        example: "This is my favourite project blah blah blah blah!""
