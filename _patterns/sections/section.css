@@ -2,14 +2,6 @@
   background-image: url(/images/bg-3.jpg);
 }
 
-.bg-sticker {
-  background-image: url(/images/cut-sticker-1.png);
-  background-size: 20%;
-  background-repeat: no-repeat;
-  background-position: left bottom;
-
-}
-
 .gif-video-embed .embed-item {
   width: auto;
   height: 100%;
@@ -19,4 +11,18 @@
 
 .gif-video-embed {
   padding-top: 30%;
+}
+
+.gutter-2-video {
+  padding-right: none;
+  padding-left: none;
+}
+
+@media only screen and (min-width: 30em) {
+
+  .gutter-2-video {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
 }
