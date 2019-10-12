@@ -21,7 +21,7 @@ p {
 
 .bg {
   background-image: url(/images/sticker-1.png);
-  background-size: auto 10em;
+  background-size: auto 7em;
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -43,6 +43,13 @@ p {
     padding-top: 80%;
   }
 
+  .bg {
+    background-image: url(/images/sticker-1.png);
+    background-size: auto 10em;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -51,12 +58,23 @@ p {
     padding-top: 72%;
   }
 
+  .bg {
+    background-size: auto 15em;
+    background-position: top right;
+  }
 }
 
 @media only screen and (min-width: 80em) {
 
   .banner-video-embed {
-    padding-top: 56.25%;
+    padding-top: 56.3%;
+  }
+
+  .banner-video-embed .embed-item {
+    width: auto;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
 }

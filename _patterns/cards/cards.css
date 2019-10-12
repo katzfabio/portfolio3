@@ -10,3 +10,9 @@ h3 {
   font-family: var(--font-primary);
   font-weight: bold;
 }
+
+.container:hover {
+  opacity: 0.5;
+  transition: .3s ease;
+  background-color: var(--color-accent);
+}
