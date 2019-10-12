@@ -1,4 +1,4 @@
-.bg-footer {
+.bg {
   background-image: url(/images/bg-3.jpg);
 }
 
@@ -9,7 +9,3 @@
   background-position: left bottom;
 
 }
-
-.banner-video-embed .embed-item {
-  width: auto;
-  height: 100%;
