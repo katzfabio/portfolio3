@@ -1,4 +1,4 @@
-.bg {
+.bg-3 {
   background-image: url(/images/bg-3.jpg);
 }
 
@@ -8,4 +8,15 @@
   background-repeat: no-repeat;
   background-position: left bottom;
 
+}
+
+.gif-video-embed .embed-item {
+  width: auto;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gif-video-embed {
+  padding-top: 30%;
 }
