@@ -26,6 +26,22 @@ p {
   background-position: top right;
 }
 
+.width-girl {
+  width: 18em;
+}
+
+.width-sticker-1 {
+  width: 10em;
+}
+
+.width-cat {
+  width: 14em;
+}
+
+.position-girl{
+z-index: -3;
+}
+
 .banner-video-embed {
   padding-top: 100%;
 }
