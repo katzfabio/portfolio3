@@ -12,7 +12,6 @@ h3 {
 }
 
 .container:hover {
-  opacity: 0.5;
   transition: .3s ease;
-  background-color: var(--color-accent);
+  filter: invert(100%);
 }
