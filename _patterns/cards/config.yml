@@ -6,8 +6,11 @@ patterns:
     fields:
       - name: heading
         type: string
+        example: CASE 1
+
       - name: text
         type: string
+        example: Stay You
       - name: 'url'
         type: 'string'
-        exammple: '/images/'
+        example: "/images/stay-you.jpg"

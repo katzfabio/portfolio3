@@ -5,3 +5,20 @@ patterns:
       This will be used as the titles to indicate the user they are viewing a new section of my website.
     fields:
       - name: heading
+        example: TITLE OF PROJECT
+
+  work:
+    title: "work"
+    description: |
+      This will be used as the titles to indicate the user they are viewing a new section of my website.
+    fields:
+      - name: heading
+        example: WORK
+
+  fun-stuff:
+    title: "fun-stuff"
+    description: |
+      This will be used as the titles to indicate the user they are viewing a new section of my website.
+    fields:
+      - name: heading
+        example: FUN STUFF
