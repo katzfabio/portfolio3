@@ -1,0 +1,16 @@
+patterns:
+  project-cards:
+    title: "project cards"
+    description: |
+      This will be used as cards that you can click and view each individual project.
+    fields:
+      - name: heading
+        type: string
+        example: CASE 1
+
+      - name: text
+        type: string
+        example: Stay You
+      - name: 'url'
+        type: 'string'
+        example: "/images/stay-you.jpg"
