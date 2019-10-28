@@ -1,5 +1,5 @@
 <div class="relative block text-center">
-  <img class="img-flex" src="/images/mountains.jpg" alt="">
+  <img class="img-flex" src="{{include.url}}" alt="">
   <div class="absolute pin-c text-center">
 
     <div>
@@ -8,7 +8,7 @@
 
     <div class="max-length gutter-2 flex-row flex-align-center flex-justify">
       {% pattern buttons/left-arrow url="/projects/" %}
-      <h1 class="gutter-2 zetta push-0 super-title">TITLE</h1>
+      <h1 class="gutter-2 zetta push-0">{{include.heading}}</h1>
       {% pattern buttons/right-arrow url="/projects/" %}
     </div>
 
