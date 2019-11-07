@@ -2,8 +2,13 @@
 layout: default
 ---
 
-{% pattern banners/project-banners heading="Isometric Gif" %}
+{% pattern banners/project-banners heading="Isometric Gif" url="/images/cafe-beans.jpg" %}
 {% pattern sections/project-description %}
-{% pattern sections/videos %}
+{% pattern sections/videos url="/videos/iso.mp4" %}
 {% pattern banners/titles-for-sections heading="PROCCESS" %}
-{% pattern sections/proccess %}
+<div class="grid">
+  {% pattern sections/proccess url="/images/" text="Concept sketches" %}
+  {% pattern sections/proccess url="/images/" text="style frame" %}
+  {% pattern sections/proccess url="/images/" text="Branding identity" %}
+  {% pattern sections/proccess url="/images/" text="logo" %}
+</div>
