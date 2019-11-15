@@ -3,12 +3,12 @@
   <div class="absolute pin-c text-center">
 
     <div>
-      {% pattern buttons/logo-btn url="/main-page/" %}
+      {% pattern buttons/logo-btn url="/index/" %}
     </div>
 
-    <div class="max-length gutter-2 flex-row flex-align-center flex-justify">
+    <div class="gutter-2 flex-row flex-align-center flex-justify">
       {% pattern buttons/left-arrow url=page.prev %}
-      <h1 class="gutter-2 zetta push-0">{{include.heading}}</h1>
+      <h1 class="max-length gutter-2 zetta push-0">{{include.heading}}</h1>
       {% pattern buttons/right-arrow url=page.next %}
     </div>
 
