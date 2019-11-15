@@ -22,6 +22,10 @@
   color: var(--color-hover);
 }
 
+.milli {
+  line-height: 1.5em;
+}
+
 .hr {
   width: 0em;
 }
