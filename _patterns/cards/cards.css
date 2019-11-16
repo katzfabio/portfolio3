@@ -13,5 +13,5 @@ h3 {
 
 .container:hover {
   transition: .3s ease;
-  filter: blur(6px);
+  filter: grayscale(100%);
 }
