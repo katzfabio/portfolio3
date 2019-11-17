@@ -6,3 +6,33 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.color-orange {
+  background-color: #FFBD00;
+}
+
+.color {
+  background-color: #F2F1F2;
+}
+
+.color-mystory {
+  background-color: #D4C7BC;
+}
+
+.color-isometric {
+  background-color: #F1D8BC;
+}
+
+.color-roto {
+  background-color: #D17343;
+}
+
+.color-mm2 {
+  background-color: #F2F1F2;
+}
+
+.background-guide {
+  background-image: url("/images/line.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

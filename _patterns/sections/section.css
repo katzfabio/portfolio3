@@ -43,6 +43,12 @@ i {
   fill: var(--color-primary);
 }
 
+.background {
+  background-image: url("/images/circle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media only screen and (min-width: 25em) {
   .gif-video-embed {
     padding-top: 29%;

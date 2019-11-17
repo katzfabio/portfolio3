@@ -7,22 +7,24 @@ prev: "/case-2/"
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Parallax Design · Jazmin Katz</title>
-  <meta name="description" content="To design a wedbsite for Greta Thunberg and show the process of how I came up with the idea.">
+  <title>Motion Reel · Jazmin Katz</title>
+  <meta name="description" content="To design a motion reel that shows I am able to communicate a story through motion.">
 
 </head>
 <body>
-  {% pattern banners/project-banners heading="PARALLAX UI" url="/images/banners/mountains.jpg" %}
+  {% pattern banners/project-banners heading="MY STORY" url="/images/banners/mystory.png" %}
   {% pattern sections/short-description text="This is a make up UI design for Greta Thunberg's association. The video demonstrates the use of a parallax effect inorder to draw more visual intrigue to each topic that her association touch base on. " %}
-  {% pattern sections/videos url="/videos/parallax.mp4" %}
-  {% pattern sections/project-description text="<b>CLIENT:</b>Greta Thunberg<br>
-  <b>TARGET AUDIENCE:</b>Individuals interested in becoming aware of what her association talks about and how you can contribute to the cause.<br>
-  <b>GOAL:</b>To create a website using parallax and that would be effective in communicating well what Greta Thunberg is stands for to other individuals who don't know about her and would like to donate or simply know more.<br>
+  {% pattern sections/videos url="/videos/main.mp4" %}
+  {% pattern sections/project-description text="<b>TARGET AUDIENCE:</b>Individuals interested in becoming aware of what her association talks about and how you can contribute to the cause.<br><br>
+  <b>GOAL:</b>To create a website using parallax and that would be effective in communicating well what Greta Thunberg is stands for to other individuals who don't know about her and would like to donate or simply know more.<br><br>
   <b>RATIONALE:</b>By using a clean design, it helps translate the seriousness of the topic through the UI design. " %}
   {% pattern banners/titles-for-sections heading="PROCESS" %}
-  <div class="grid gutter-2">
-    {% pattern sections/proccess url="/images/process images/parallax/sketch.jpg" text="Sketches" %}
-    {% pattern sections/proccess url="/images/process images/parallax/ui.jpg" text="style frame" %}
+  <div class="color-mystory pad-t">
+    {% pattern sections/process-description text="The text will go here" %}
+    <div class="grid gutter-2">
+      {% pattern sections/proccess url="/images/process images/parallax/sketch.jpg" text="Sketches" %}
+      {% pattern sections/proccess url="/images/process images/parallax/ui.jpg" text="style frame" %}
+    </div>
   </div>
 </body>
 </html>
