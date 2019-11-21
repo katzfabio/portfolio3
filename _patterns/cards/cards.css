@@ -1,5 +1,6 @@
 .text {
   position: absolute;
+  opacity: 0;
 }
 
 .text-color {
@@ -9,9 +10,20 @@
 h3 {
   font-family: var(--font-primary);
   font-weight: bold;
+  line-height: 2rem;
 }
 
 .container:hover {
   transition: .3s ease;
-  filter: grayscale(100%);
+  z-index: 5000;
+}
+
+.container:hover .text {
+  transition: .3s ease;
+  opacity: 1;
+}
+
+.container:hover .image {
+  transition: .3s ease;
+  filter: brightness(20%);
 }
