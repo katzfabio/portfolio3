@@ -26,8 +26,11 @@ p {
   background-position: top right;
 }
 
-.width-girl {
-  width: 18em;
+.sticker {
+  width: 8em;
+  z-index: -2;
+  top: -1em;
+  left: 13em;
 }
 
 .width-sticker-1 {
@@ -78,6 +81,13 @@ z-index: -3;
     background-size: auto 15em;
     background-position: top right;
   }
+
+  .sticker {
+    width: 10em;
+    top: -1em;
+    left: 20em;
+  }
+
 }
 
 @media only screen and (min-width: 80em) {
@@ -91,6 +101,12 @@ z-index: -3;
     height: 100%;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .sticker {
+    width: 10em;
+    top: -1em;
+    left: 20em;
   }
 
 
