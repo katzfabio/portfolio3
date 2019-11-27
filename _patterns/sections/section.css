@@ -9,6 +9,11 @@
   transform: translateX(-50%);
 }
 
+.bg-height {
+  height: 20em;
+  background-image: url(/images/bg-sky.png);
+}
+
 .gif-video-embed {
   padding-top: 57%;
 }
