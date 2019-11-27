@@ -4,8 +4,6 @@
 
 .color-btn {
   color: white;
-  padding: 1em;
-  background-color: var(--color-secondary);
 }
 
 @media only screen and (min-width: 30em) {
