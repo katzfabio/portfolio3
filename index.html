@@ -10,45 +10,45 @@ layout: default
 </head>
 <body>
 
-  <div>
+  <main role="main" id="main" tabindex="0">
     {% pattern banners/banner-main %}
     {% pattern banners/titles-for-sections heading="MOTION REEL" %}
-    <div class="push">
+    <div id="motion-reel" class="push">
       {% pattern sections/videos url="/videos/main.mp4" %}
     </div>
-    <div class="pad-t-2 push">
+    <div id="cinema-4d" tabindex="0" class="pad-t-2 push">
       {% pattern sections/4d-section %}
     </div>
 
     {% pattern banners/work heading="WORK" %}
-    <div class="grid push">
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+    <section class="grid push">
+      <div id="dineen-coffee" tabindex="0" class="unit xs-1 s-1-2 m-1-2 l-1-3">
         {% pattern cards/project-cards heading="LOGO REVEAL" text="Dineen Coffee" url="/images/cards/logo-reveal.jpg" baseurl="/case-1/" %}
       </div>
 
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      <div id="youtube-intro" tabindex="0" class="unit xs-1 s-1-2 m-1-2 l-1-3">
         {% pattern cards/project-cards heading="YOUTUBE INTRO" text="Stay You" url="/images/cards/stay-you.jpg" baseurl="/case-2/" %}
       </div>
 
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      <div id="infographic-story" tabindex="0" class="unit xs-1 s-1-2 m-1-2 l-1-3">
         {% pattern cards/project-cards heading="STORY TELLING" text="My Story" url="/images/cards/my-story.jpg" baseurl="/case-3/" %}
       </div>
 
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      <div id="isometric-gif" tabindex="0" class="unit xs-1 s-1-2 m-1-2 l-1-3">
         {% pattern cards/project-cards heading="GIF" text="Isometric Gif" url="/images/iso.jpg" baseurl="/case-4/" %}
       </div>
 
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      <div id="public-service-announcement" tabindex="0" class="unit xs-1 s-1-2 m-1-2 l-1-3">
         {% pattern cards/project-cards heading="PUBLIC SERVICE VIDEO" text="Laugh day" url="/images/cards/laugh.jpg" baseurl="/case-5/" %}
       </div>
 
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-3">
+      <div id="augmented-reality" tabindex="0" class="unit xs-1 s-1-2 m-1-2 l-1-3">
         {% pattern cards/project-cards heading="AR MENU" text="Magic Molecule" url="/images/mock-up for magic molecule.jpg" baseurl="/case-6/" %}
       </div>
 
-    </div>
+    </section>
     {% pattern sections/about-me %}
-  </div>
+  </main>
 
 </body>
 </html>
