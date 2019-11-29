@@ -1,5 +1,7 @@
 .bg-3 {
-  background-image: url(/images/bg-3.jpg);
+  background-image: url(/images/footer.jpg);
+  background-position: top;
+  background-size: 60em;
 }
 
 .gif-video-embed .embed-item {
