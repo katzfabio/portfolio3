@@ -14,7 +14,11 @@ layout: default
     {% pattern banners/banner-main %}
     {% pattern banners/titles-for-sections heading="MOTION REEL" %}
     <div id="motion-reel" class="push">
-      {% pattern sections/videos url="/videos/simple-motion-reel-version-1.mp4" %}
+      <div class="text-center gutter-2-video">
+        <video class="img-flex" src=/videos/simple-motion-reel-version-1.mp4 controls poster="/images/goal.jpg">
+          A video of a jumping man.
+        </video>
+      </div>
     </div>
     <div id="cinema-4d" tabindex="0" class="pad-t-2 push">
       {% pattern sections/4d-section %}
