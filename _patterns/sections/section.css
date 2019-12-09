@@ -33,11 +33,11 @@
 }
 
 i {
-  fill: #fff;
+  fill: var(--color-primary);
 }
 
 .ltn-svg {
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .p-4d {
@@ -45,8 +45,8 @@ i {
 }
 
 .ltn-svg:hover {
-  color: var(--color-primary);
-  fill: var(--color-primary);
+  color: #000;
+  fill: #000;
 }
 
 .background {
